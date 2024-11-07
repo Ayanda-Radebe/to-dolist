@@ -13,6 +13,15 @@ body {
     font-size: 50px;
 }
 
+#addTaskInput {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 #addTaskButton i {
     margin-right: 5px;
 }
@@ -50,8 +59,8 @@ body {
     bottom: -25px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #333;
-    color: #e41f1f;
+    background-color: #8c5ef8;
+    color: white;
     padding: 5px;
     border-radius: 4px;
     font-size: 12px;
@@ -117,3 +126,4 @@ body {
     text-align: center;
     font-size: 30px;
 }
+

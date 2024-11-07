@@ -25,4 +25,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const currentDate = new Date();
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     dateElement.textContent = currentDate.toLocaleDateString('en-US', options);
+
+
+const data = { task: 'My Task' };
+localStorage.setItem('taskData', JSON.stringify(data));
+
+
+const storedData = JSON.parse(localStorage.getItem('taskData'));
+
+
+
 });
