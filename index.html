@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--Side Navigation-->
+
+    <div class="sidenav">
+        <a href="#">My Day</a>
+        <a href="#" id="addTaskButton">Add Task</a>
+        <a href="#">Upcoming</a>
+        <a href="#">Search</a>
+      </div>
+
+
+<!--Add new task-->
+
+<div id="taskModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class="taskname">Add a Task</h2>
+        <input type="text" id="taskName" placeholder="Task name" />
+        <textarea id="taskDetails" placeholder="Task details"></textarea>
+        <button id="saveTask">Save Task</button>
+    </div>
+</div>
+
+<!-- Display Date -->
+<div class="date-display" id="currentDate"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
